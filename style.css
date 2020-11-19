@@ -1,13 +1,60 @@
-            body {
-                font-family: Montserrat,sans-serif;
-                font-size:14px;
-                background-color: rgb(174, 206, 243);
-            }
-            #description {
-                text-align:inherit;
-                background-color: rgb(253, 253, 255);
-            }
-            .style-list {
-                color: rgb(248, 248, 248);
-                background-color: rgb(10, 99, 99);
-            }
+body {
+    font-family: Montserrat,sans-serif;
+    font-size:14px;
+    background-color: rgb(118, 228, 176);
+}
+#description {
+    text-align:inherit;
+    font-weight:700;
+    color:rgb(56, 55, 55);
+    background-color: rgb(253, 253, 255);
+}
+.style-list {
+    color: rgb(0, 0, 0);
+    background-color: rgb(252, 252, 252);
+    font-weight: 600;
+}
+#emphasis {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.newsButton {
+	background-color:#44c767;
+	-webkit-border-top-left-radius:28px;
+	-moz-border-radius-topleft:28px;
+	border-top-left-radius:28px;
+	-webkit-border-top-right-radius:28px;
+	-moz-border-radius-topright:28px;
+	border-top-right-radius:28px;
+	-webkit-border-bottom-right-radius:28px;
+	-moz-border-radius-bottomright:28px;
+	border-bottom-right-radius:28px;
+	-webkit-border-bottom-left-radius:28px;
+	-moz-border-radius-bottomleft:28px;
+	border-bottom-left-radius:28px;
+text-indent:0;
+	border:1px solid #18ab29;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:25px;
+	line-height:25px;
+width:100px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #2f6627;
+}.newsButton:hover {
+	background-color:#5cbf2a;
+}.newsButton:active {
+	position:relative;
+	top:1px;
+}
+.textBox{
+    width: 300px;
+    border: 10px solid green;
+    padding: 50px;
+    margin: 0px;
+}
