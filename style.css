@@ -18,6 +18,10 @@ body {
     font-weight: bold;
     font-size: 1.2em;
 }
+.name {
+    font-size: 2em;
+    font-weight: bold;
+}
 .newsButton {
 	background-color:#44c767;
 	-webkit-border-top-left-radius:28px;
