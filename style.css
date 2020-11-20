@@ -1,13 +1,18 @@
 body {
     font-family: Montserrat,sans-serif;
     font-size:14px;
-    background-color: rgb(118, 228, 176);
+    background-color: rgb(186, 252, 173);
+}
+#photo{
+	float:left;
+	margin:20px 15px;
+
 }
 #description {
-    text-align:inherit;
     font-weight:700;
     color:rgb(56, 55, 55);
-    background-color: rgb(253, 253, 255);
+	background-color: rgb(253, 253, 255);
+	
 }
 .style-list {
     color: rgb(0, 0, 0);
@@ -18,9 +23,20 @@ body {
     font-weight: bold;
     font-size: 1.2em;
 }
+* {
+	margin:0;
+	border:0;
+	padding:0;
+}
 .name {
+	color: rgb(43, 83, 28);
     font-size: 2em;
-    font-weight: bold;
+	font-weight: bold;
+	text-align:center;
+	padding: 10px 0px;
+}
+.circledPhoto{
+	border-radius: 100px;
 }
 .newsButton {
 	background-color:#44c767;
@@ -57,8 +73,17 @@ width:100px;
 	top:1px;
 }
 .textBox{
-    width: 300px;
-    border: 10px solid green;
+    border: 1px solid green ;
     padding: 50px;
-    margin: 0px;
+	margin: 0;
+	border-left:0;
+	border-right:0;
+	min-height: 130px;
+}
+h2 {
+	text-align:left;
+	color: rgb(62, 117, 40);
+	padding: 20px 0px;
+	margin-left:2%;
+}
 }
